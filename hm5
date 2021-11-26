@@ -1,0 +1,48 @@
+
+using System;
+class HelloWorld {
+    
+    static void Main() {
+        Console.WriteLine("Home-Work_5");
+        Console.WriteLine("1ex:");
+        int a = 100, s = 0;
+        while(a <= 500){
+            s = s + a;
+            a = a + 1;
+        }
+        Console.WriteLine("sum " + s);
+        
+        Console.WriteLine("2ex:");
+        int aa = 0;
+        aa = Convert.ToInt32(Console.ReadLine());
+        int ss = 0;
+        while(aa <= 500){
+            ss = ss + aa;
+            aa = aa + 1;
+        }
+        Console.WriteLine("sum a to 500: " + ss);
+        
+        Console.WriteLine("3ex:");
+        int bb = 0;
+        bb = Convert.ToInt32(Console.ReadLine());
+        int ssu = 0, a1 = -10;
+        while(bb >= a1){
+            ssu = ssu + a1;
+            a1 = a1 + 1;
+        }
+        Console.WriteLine("sum a to 500: " + ssu);
+        
+        Console.WriteLine("4ex:");
+        int ad = 0, bd = 0;
+        ad = Convert.ToInt32(Console.ReadLine());
+        bd = Convert.ToInt32(Console.ReadLine());
+        int sum = 0;
+        while(bd >= ad){
+            sum = sum + ad;
+            ad = ad + 1;
+        }
+        Console.WriteLine("sum a to 500: " + sum);
+        
+        Console.ReadLine();
+  }
+}
